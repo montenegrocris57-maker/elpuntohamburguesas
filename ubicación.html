@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa - Plus Code Managua</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .map-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px auto;
+      max-width: 90%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+  </style>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <header>
+    <h1>El Punto</h1>
+    <h2>Hamburguesa</h2>
+    <p>Sabor que conquista cada mordida</p>
+  </header>
+  <nav>
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <a href="ubicación.html">Ubicacion</a>      
+            <a href="contactanos.html">Contacto</a>
+            <a href="index.html">Proximamente Asados</a>
+        </div>
+    </nav>
+
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps?q=5Q3W%2BVVR,+Managua+11031&output=embed"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </div>
+
+</body>
+</html>
